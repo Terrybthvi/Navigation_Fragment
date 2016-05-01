@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true"
+    android:zAdjustment="normal">
+    <translate
+        android:duration="100"
+        android:fromXDelta="0"
+        android:fromYDelta="50"
+        android:interpolator="@android:anim/slide_in_left"
+        android:toXDelta="300"
+        android:toYDelta="300"/>
+    <rotate
+        android:duration="400"
+        android:fromDegrees="0"
+        android:toDegrees="100"/>
+    <alpha
+        android:duration="100"
+        android:fromAlpha="0.1"
+        android:toAlpha="1.0"
+        />
+
+</set>
